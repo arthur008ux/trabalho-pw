@@ -1,0 +1,56 @@
+import { Turma } from "./Turma";
+
+export class Aluno {
+    constructor(
+        public nome: string,
+        public matricula: string,
+        public turma: Turma
+    ) {}
+}
+
+export const alunos: Aluno[] = [
+    new Aluno("ANA BEATRICI DA SILVA NASCIMENTO", "2025001", Turma.Informatica2),
+    new Aluno("ANA BEATRIZ DE SOUSA PIMENTA", "2025002", Turma.Informatica2),
+    new Aluno("ANA DAVILA FURTADO MOREIRA BRITO", "2025003", Turma.Informatica2),
+    new Aluno("ANDERSON ALVES TAVARES", "2025004", Turma.Informatica2),
+    new Aluno("ANDRIEL JONAS ALVES LIMA", "2025005", Turma.Informatica2),
+    new Aluno("ANTONIA RAVELINE DOS SANTOS", "2025006", Turma.Informatica2),
+    new Aluno("CRISTHIAN DE FIGUEIREDO OLIVEIRA", "2025007", Turma.Informatica2),
+    new Aluno("DAVID EMANUEL SIQUEIRA SILVA", "2025008", Turma.Informatica2),
+    new Aluno("DAVY PEREIRA DO NASCIMENTO", "2025009", Turma.Informatica2),
+    new Aluno("DIEGO SANTANA DA SILVA", "2025010", Turma.Informatica2),
+    new Aluno("ERNANDO FERREIRA DA SILVA", "2025011", Turma.Informatica2),
+    new Aluno("ESTER CAITIA BARBOSA PEREIRA", "2025012", Turma.Informatica2),
+    new Aluno("EVELLY SOFIA DOS SANTOS LUCENA", "2025013", Turma.Informatica2),
+    new Aluno("GABRIELLY DE MELO SOBRINHO", "2025014", Turma.Informatica2),
+    new Aluno("GISELY ARARUNA DE SOUSA", "2025015", Turma.Informatica2),
+    new Aluno("HELANO GOMES DO NASCIMENTO", "2025016", Turma.Informatica2),
+    new Aluno("ISABELA MARCULINO DO NASCIMENTO", "2025017", Turma.Informatica2),
+    new Aluno("ISABELLY DOS SANTOS ALENCAR", "2025018", Turma.Informatica2),
+    new Aluno("JEAN RAVEL LANDIM RODRIGUES", "2025019", Turma.Informatica2),
+    new Aluno("JOAO ARTHUR LOPES VASCONCELOS", "2025020", Turma.Informatica2),
+    new Aluno("JOAO KAUAN DE LIMA SILVA", "2025021", Turma.Informatica2),
+    new Aluno("JOSE ARTHUR BRAZ DE ARAUJO", "2025022", Turma.Informatica2),
+    new Aluno("JOSE DIOGO PEREIRA JANUARIO QUENTAL", "2025023", Turma.Informatica2),
+    new Aluno("JOSE KAUE ALVES DE SOUSA", "2025024", Turma.Informatica2),
+    new Aluno("KETHILLY BIANCA FERREIRA DE LUCENA", "2025025", Turma.Informatica2),
+    new Aluno("LARISSA FELIPE DE MORAES", "2025026", Turma.Informatica2),
+    new Aluno("LETICIA AVINY PEREIRA DE MORAES", "2025027", Turma.Informatica2),
+    new Aluno("LUIS HENRIQUE LINS PEREIRA", "2025028", Turma.Informatica2),
+    new Aluno("MARIA CLARA MORAIS LINS", "2025029", Turma.Informatica2),
+    new Aluno("MARIA MADALENA ALVES DOS SANTOS", "2025030", Turma.Informatica2),
+    new Aluno("MARIA PALOMA DO NASCIMENTO BEZERRA", "2025031", Turma.Informatica2),
+    new Aluno("MARIA PAULA PRACA DE LUCENA", "2025032", Turma.Informatica2),
+    new Aluno("MARIA SAMIRA BATISTA DE ARAUJO", "2025033", Turma.Informatica2),
+    new Aluno("MILENA VICENTE PEREIRA", "2025034", Turma.Informatica2),
+    new Aluno("NATANIELE BARBOSA BEZERRA", "2025035", Turma.Informatica2),
+    new Aluno("NAVILY ALENCAR DINIZ", "2025036", Turma.Informatica2),
+    new Aluno("NOEMIA BRITO DE SOUSA LEITE", "2025037", Turma.Informatica2),
+    new Aluno("QUEZIA JEMIMA PEREIRA DE MORAES", "2025038", Turma.Informatica2),
+    new Aluno("ROGIVANIA DO NASCIMENTO SOUSA", "2025039", Turma.Informatica2),
+    new Aluno("ROMULO OLIVEIRA BEZERRA DE MORAES", "2025040", Turma.Informatica2),
+    new Aluno("ROSA MARIA ROSENDO DE LIMA", "2025041", Turma.Informatica2),
+    new Aluno("ROSELI DA SILVA SANTANA", "2025042", Turma.Informatica2),
+    new Aluno("WESLEY CARI BEZERRA DA SILVA", "2025043", Turma.Informatica2),
+    new Aluno("YBSON OLIVEIRA LACERDA", "2025044", Turma.Informatica2),
+];

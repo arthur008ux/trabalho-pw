@@ -1,0 +1,45 @@
+.historico-ocorrencia {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  border: 1.5px solid #6ca96c; /* verde médio para borda */
+  border-radius: 8px;
+  background-color: #1a2a1a; /* verde muito escuro, quase preto */
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #cdeac0; /* verde claro para o texto */
+  box-shadow: 0 2px 10px rgba(44, 77, 44, 0.7);
+}
+
+.historico-ocorrencia h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #a7d48b; /* verde claro mais forte */
+  font-weight: 700;
+}
+
+.historico-ocorrencia ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.historico-ocorrencia .ocorrencia-item {
+  border-bottom: 1px solid #8fae6f; /* amarelo esverdeado suave */
+  padding: 16px 0;
+}
+
+.historico-ocorrencia .ocorrencia-item:last-child {
+  border-bottom: none;
+}
+
+.historico-ocorrencia .ocorrencia-item p {
+  margin: 6px 0;
+  font-size: 14.5px;
+  color: #cdeac0;
+  line-height: 1.4;
+}
+
+.historico-ocorrencia .ocorrencia-item strong {
+  color: #d9f3b3; /* amarelo claro para destaque */
+}

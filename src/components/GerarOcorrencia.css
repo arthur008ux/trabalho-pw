@@ -1,0 +1,60 @@
+.aplicar-ocorrencia-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  border: 1.5px solid #6ca96c; /* verde médio para borda */
+  border-radius: 8px;
+  background: #1a2a1a; /* verde muito escuro, quase preto */
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #cdeac0; /* verde claro para o texto */
+  box-shadow: 0 2px 10px rgba(44, 77, 44, 0.7);
+}
+
+.aplicar-ocorrencia-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 700;
+  color: #d9f3b3; /* amarelo claro para destaque */
+}
+
+.aplicar-ocorrencia-form input,
+.aplicar-ocorrencia-form select,
+.aplicar-ocorrencia-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  border: 1.5px solid #6ca96c; /* verde médio */
+  border-radius: 5px;
+  background-color: #2a3d2a; /* verde escuro para campos */
+  color: #cdeac0; /* texto claro */
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.aplicar-ocorrencia-form input:focus,
+.aplicar-ocorrencia-form select:focus,
+.aplicar-ocorrencia-form textarea:focus {
+  outline: none;
+  border-color: #a7d48b; /* verde mais claro no foco */
+  background-color: #3b563b; /* leve clareamento no foco */
+}
+
+.aplicar-ocorrencia-form button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #a7d48b; /* verde claro/amarelo */
+  color: #1a2a1a; /* texto escuro no botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.aplicar-ocorrencia-form button:hover {
+  background-color: #d9f3b3; /* amarelo mais claro no hover */
+}
