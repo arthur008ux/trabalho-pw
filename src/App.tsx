@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AplicarOcorrenciaForm from './components/GerarOcorrencia';
 import HistoricoOcorrencia from './components/HistoricoOcorrencia';
 import { Ocorrencia } from './models/Ocorrencia';
-import './app.css'
+
 
 function App() {
   const [ocorrencias, setOcorrencias] = useState<Ocorrencia[]>([]);
