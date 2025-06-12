@@ -1,6 +1,7 @@
 import React from 'react';
 import { Ocorrencia } from '../models/Ocorrencia';
 import '../components/HistoricoOcorrencia.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 interface ListaOcorrenciasProps {
   ocorrencias: Ocorrencia[];
@@ -8,6 +9,13 @@ interface ListaOcorrenciasProps {
 
 const HistoricoOcorrencia: React.FC<ListaOcorrenciasProps> = ({ ocorrencias }) => {
   return (
+    <>
+    <div className='head'>
+
+          <Link to="../aplicar" ><h3>APLICAR OCORRÊNCIA</h3></Link>
+          <Link to="../historico"><h3>HITÓRICO DE OCORRÊNCIA</h3></Link>
+
+      </div>
     <div className="historico-ocorrencia">
       <h2>Histórico de Ocorrências</h2>
       {ocorrencias.length === 0 ? (
@@ -27,6 +35,7 @@ const HistoricoOcorrencia: React.FC<ListaOcorrenciasProps> = ({ ocorrencias }) =
         </ul>
       )}
     </div>
+    </>
   );
 };
 

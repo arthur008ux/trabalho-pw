@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AplicarOcorrenciaForm from './components/GerarOcorrencia';
 import HistoricoOcorrencia from './components/HistoricoOcorrencia';
 import { Ocorrencia } from './models/Ocorrencia';
-
+import "./App.css"
+import TelaInicial from './components/Index';
 
 function App() {
   const [ocorrencias, setOcorrencias] = useState<Ocorrencia[]>([]);
@@ -14,14 +15,11 @@ function App() {
 
   return (
     <Router>
-      <nav style={{textAlign: 'center', margin: '20px'}}>
-        <Link to="/" style={{marginRight: '20px'}}>Aplicar Ocorrência</Link>
-        <Link to="/historico">Histórico de Ocorrências</Link>
-      </nav>
-
+      
       <Routes>
+        <Route path='/' element={<TelaInicial/>}/>
         <Route
-          path="/"
+          path="/aplicar"
           element={<AplicarOcorrenciaForm aplicarOcorrencia={aplicarOcorrencia} />}
         />
         <Route

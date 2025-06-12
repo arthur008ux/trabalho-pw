@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Turma } from '../models/Turma';
 import { alunos, Aluno } from '../models/Aluno';
 import { Disciplina } from '../models/Disciplina';
@@ -49,6 +50,15 @@ const AplicarOcorrenciaForm: React.FC<AplicarOcorrenciaFormProps> = ({ aplicarOc
     };
 
     return (
+        <>
+        <div className='head'>
+
+          <Link to="../aplicar" ><h3>APLICAR OCORRÊNCIA</h3></Link>
+          <img src="../assets/icon-head.png" alt="" />
+          <Link to="../historico"><h3>HITÓRICO DE OCORRÊNCIA</h3></Link>
+          
+
+      </div>
         <form className="aplicar-ocorrencia-form" onSubmit={handleSubmit}>
             <div className="form-row">
                 <label htmlFor="nomeProfessor">Professor:</label>
@@ -119,7 +129,7 @@ const AplicarOcorrenciaForm: React.FC<AplicarOcorrenciaFormProps> = ({ aplicarOc
 
             <button type="submit">Aplicar Ocorrência</button>
         </form>
-
+</>
     );
 };
 
