@@ -2,20 +2,22 @@
   max-width: 500px;
   margin: 30px auto;
   padding: 20px 25px;
-  border: 1.5px solid #6ca96c; /* verde médio para borda */
+  border: 1.5px solid white; /* verde médio para borda */
   border-radius: 8px;
-  background: #1a2a1a; /* verde muito escuro, quase preto */
+  background: #444; /* verde muito escuro, quase preto */
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   color: #cdeac0; /* verde claro para o texto */
-  box-shadow: 0 2px 10px rgba(44, 77, 44, 0.7);
+  box-shadow: 0 2px 10px rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
 }
 
 .aplicar-ocorrencia-form label {
   display: block;
   margin-bottom: 12px;
   font-weight: 700;
-  color: #d9f3b3; /* amarelo claro para destaque */
+  color: white; /* amarelo claro para destaque */
+  font-family: "Roboto", sans-serif;
 }
 
 .aplicar-ocorrencia-form input,
@@ -25,46 +27,45 @@
   padding: 10px;
   margin-top: 6px;
   margin-bottom: 18px;
-  border: 1.5px solid #6ca96c; /* verde médio */
+  border: 1.5px solid white; /* verde médio */
   border-radius: 5px;
-  background-color: #2a3d2a; /* verde escuro para campos */
-  color: #cdeac0; /* texto claro */
+  background-color: #2C2C2C; /* verde escuro para campos */
+  color: white; /* texto claro */
   font-size: 15px;
   box-sizing: border-box;
   transition: border-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
 }
 
 .aplicar-ocorrencia-form input:focus,
 .aplicar-ocorrencia-form select:focus,
 .aplicar-ocorrencia-form textarea:focus {
   outline: none;
-  border-color: #a7d48b; /* verde mais claro no foco */
-  background-color: #3b563b; /* leve clareamento no foco */
+  border-color: white; /* verde mais claro no foco */
+  background-color: #2C2C2C; /* leve clareamento no foco */
+  font-family: "Roboto", sans-serif;
 }
 
-.aplicar-ocorrencia-form button {
+ button {
   width: 100%;
   padding: 12px 0;
-  background-color: #a7d48b; /* verde claro/amarelo */
-  color: #1a2a1a; /* texto escuro no botão */
+  background-color: white; /* verde claro/amarelo */
+  color: #2C2C2C; /* texto escuro no botão */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   transition: background-color 0.3s ease;
+font-family: "Roboto", sans-serif;
 }
-
+.button-main {
+  width: 200px;
+}
 .aplicar-ocorrencia-form button:hover {
-  background-color: #d9f3b3; /* amarelo mais claro no hover */
+  background-color: white; /* amarelo mais claro no hover */
 }
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
 .logo {
   height: 6em;
